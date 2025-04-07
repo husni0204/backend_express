@@ -1,0 +1,14 @@
+## base url
+GET http://localhost:3000
+
+### get all posts
+GET http://localhost:3000/api/posts
+
+### post data
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "title": "Belajar React Native dan Express",
+    "content": "Belajar React Native dan Express"
+}
